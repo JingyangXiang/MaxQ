@@ -1,0 +1,10 @@
+python quantization.py ./dataset/imagenet --onnx-path ../SR-STE/2-4/batch_size-1-N-2-M-4-resnet50-sim.onnx --batch-size 1
+python quantization.py ./dataset/imagenet --onnx-path ../SR-STE/2-4/batch_size-2-N-2-M-4-resnet50-sim.onnx --batch-size 2
+python quantization.py ./dataset/imagenet --onnx-path ../SR-STE/2-4/batch_size-4-N-2-M-4-resnet50-sim.onnx --batch-size 4
+python quantization.py ./dataset/imagenet --onnx-path ../SR-STE/2-4/batch_size-8-N-2-M-4-resnet50-sim.onnx --batch-size 8
+python quantization.py ./dataset/imagenet --onnx-path ../SR-STE/2-4/batch_size-16-N-2-M-4-resnet50-sim.onnx --batch-size 16
+python quantization.py ./dataset/imagenet --onnx-path ../MaxQ/2-4/batch_size-1-N-2-M-4-resnet50-sim.onnx --batch-size 1
+python quantization.py ./dataset/imagenet --onnx-path ../MaxQ/2-4/batch_size-2-N-2-M-4-resnet50-sim.onnx --batch-size 2
+python quantization.py ./dataset/imagenet --onnx-path ../MaxQ/2-4/batch_size-4-N-2-M-4-resnet50-sim.onnx --batch-size 4
+python quantization.py ./dataset/imagenet --onnx-path ../MaxQ/2-4/batch_size-8-N-2-M-4-resnet50-sim.onnx --batch-size 8
+python quantization.py ./dataset/imagenet --onnx-path ../MaxQ/2-4/batch_size-16-N-2-M-4-resnet50-sim.onnx --batch-size 16
